@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3 style="color:green; text-align: center;">W3</h3>
+        <h4 style="color:green; text-align: center;">schools</h4>
+        <h1 style="color:white; text-align: center;">Get Certified</h1>
+        </head>
+        <body>
+            <p>Document your skills with W3Schools Certificates</p>
+            <br>
+            <p>$1,995</p>
+            <br>
+            <p>$699</p>
+            <img src="slike/slika laptop.jpg">
+
+        </body>
+        </html>

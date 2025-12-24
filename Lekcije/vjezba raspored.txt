@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table tr,th {
+            border: 1px black solid;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+    <tr>
+        <th>PONEDJELJAK</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+    </tr>
+
+    
+    <tr>
+
+        <th>UTORAK</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+
+    </tr>
+    <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+
+    </tr>
+    <tr>
+        <th>PONEDJELJAK</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+    </tr>
+    <tr>
+        <th>PONEDJELJAK</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+
+    </tr>
+    <tr>
+        <th>PONEDJELJAK</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+
+    </tr>
+
+</table>
+    
+</body>
+</html>

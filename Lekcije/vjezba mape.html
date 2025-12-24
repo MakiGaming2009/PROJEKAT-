@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeBron Image Map</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
+     usemap="#lebronmap" alt="LeBron James">
+
+<map name="lebronmap">
+
+    <!-- Lopta -->
+    <area shape="circle"
+          coords="480,520,60"
+          href="https://en.wikipedia.org/wiki/Basketball_(ball)"
+          target="_blank">
+
+    <!-- Dres (Cleveland Cavaliers) -->
+    <area shape="rect"
+          coords="350,300,620,500"
+          href="https://store.nba.com/cleveland-cavaliers/jerseys/t-14695146+d-5605391904+z-9-3578686467"
+          target="_blank">
+
+    <!-- LeBron (Instagram) -->
+    <area shape="rect"
+          coords="300,50,650,650"
+          href="https://www.instagram.com/kingjames/"
+          target="_blank">
+
+</map>
+
+</body>
+</html>

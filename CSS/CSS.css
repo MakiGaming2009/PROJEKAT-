@@ -1,0 +1,154 @@
+body {
+    background-color: rgba(0, 0, 0,1);
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 20em;
+    margin: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    text-shadow:0 0 10px rgb(224, 182, 29);
+    font-size: 5em;
+    
+}
+.backgr{
+
+    
+    padding: 1em;
+    border-radius: 100em;
+    border-width: 1em;
+    margin: 20px 0;
+    background-color: rgba(0, 31, 51, 0.7);
+    max-width: 6em;
+    color: yellow;
+    text-align: center;
+    text-shadow:0 0 10px rgb(224, 182, 29);
+    font-size: 5em;
+    position:absolute;
+    left: 33.7%;
+    top:0%;
+    
+}
+p {
+    font-size: 2em;
+    color: rgba(0, 204, 204, 0.8);
+    text-shadow: 0 0 10px rgb(224, 182, 29);
+}
+
+.main{
+    list-style: none;
+    margin-top:16em;
+    margin-left:1em;
+    font-size: 1.5em;
+    color: rgb(224,182,29);
+}
+
+.tab{
+    width:14em;
+    background: rgba(0,20,35,1);
+    border:0.2em solid rgb(224,182,29);
+    box-shadow:0 0 0.6em rgb(224,182,29);
+    padding:0.8em;
+}
+
+.tab-header{
+
+    color: rgb(224,182,29);
+    font-size:1.4em;
+    display:block;
+
+}
+
+.dropdown:hover .tab{
+
+    list-style:none;
+    margin-top:6em;
+    margin-left:2em;
+    padding:0;
+
+}
+.dropdown{
+    list-style:none;
+    margin-top:0.8em;
+    padding-top:0.6em;
+    border-top:0.15em solid rgb(224,182,29);
+    background: rgba(0,20,35,0.8);
+    display:none;
+}
+.tab:hover .dropdown{
+    display:block;
+
+}
+
+.dropdown li a{
+    text-decoration:underline;
+    background: rgba(0,20,35,1);
+    display:block;
+    padding:0.3em 0;
+    font-size:1.1em;
+    color: rgb(224,182,29);
+}
+
+.dropdown li a:hover{
+    color: yellow;
+}
+
+button{
+    background-color: rgba(0, 31, 51, 0.7);
+    padding: 1em 3em;
+    border: 1em;
+    margin: 20px 0;
+    border-radius:100em ;
+    text-align: center;
+    font-family:serif;
+    font: bold;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 31, 51, 1);
+
+}
+
+button:hover{
+    background-color: rgba(255, 255, 0,0.8);
+    padding: 1em 3em;
+    border: 1em;
+    margin: 20px 0;
+    border-radius:100em ;
+    text-align: center;
+    font-family:serif;
+    font: bold;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    color: black;
+    box-shadow: 0 0 20px yellow;
+    cursor: pointer;
+
+}
+
+button:active{
+    background-color: rgba(255, 255, 0,0.6);
+    padding: 1em 3em;
+    border: 1em;
+    margin: 20px 0;
+    border-radius:100em ;
+    text-align: center;
+    font-family:serif;
+    font: bold;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    color: black;
+    box-shadow: 0 0 20px yellow;
+    cursor: pointer;
+
+}
